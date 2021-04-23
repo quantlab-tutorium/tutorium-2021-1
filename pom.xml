@@ -71,5 +71,12 @@
  		    <version>${junit.version}</version>
     		<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>lmu.quantlab</groupId>
+  			<artifactId>tutorium-2021-1-collection</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/tutorium-2021-1-collection.jar</systemPath>
+		</dependency>
 	</dependencies>
 </project>
