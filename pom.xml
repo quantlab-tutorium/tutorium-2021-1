@@ -18,14 +18,6 @@
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<sourceDirectory>${src.main.java.dir}</sourceDirectory>
 		<testSourceDirectory>${src.test.java.dir}</testSourceDirectory>
-		<resources>
-			<resource>
-				<directory>${src.main.resource.dir}</directory>
-			</resource>
-			<resource>
-				<directory>${src.test.resource.dir}</directory>
-			</resource>
-		</resources>
 		<plugins>
 			<plugin>
 			    <groupId>org.codehaus.mojo</groupId>
