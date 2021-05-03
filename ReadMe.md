@@ -3,6 +3,23 @@
 This project contains exercises to be worked on during the quantlab tutorium. Very often you will find a test in **src/test/java**, which you can use to check your solutions. Of course you can also create your own main method to run your code, while working on the problem. The following week you will often find a (possible) solution in **src/solution/java**. If you have problems or questions always feel free to ask!
 
 
+
+
+## 05/03 Debugging in eclipse
+
+We go through some of the debugging tools that eclipse has to offer. We also discuss throwing and handling exceptions.
+
+### Debugging
+
+Use the stack trace and debugging tools to find the errors in `SpyCipher` and `SequenceNDivbyAverage`. There are tests as well as a main method to run for each class.
+
+### ArithmeticException
+
+The function sin(x)/((x+pi)(x-pi)) is undefined for x=+-pi. However, it can be continuously extended. Please change the class `ContinuousExtension` so it works for all x. Do NOT use an if clause to check for pi, but try to use a try/catch for the exception.
+
+
+
+
 ## 04/26 Submitting assignments
 
 We take a more in depth look into git and github. In particular we review how to submit your assignments.
@@ -41,6 +58,8 @@ contains the methods `encode` and `decode` from its interface as well as a stati
 method `of`. Please try to keep the constructors private and use this method instead to instantiate your ciphers.
 
 
+
+
 ## 04/16 Introduction to our tools
 
 Today we get used to the eclipse IDE and check out the other tools we will be using for the lecture Numerical Methods for Financial Mathematics.
@@ -53,4 +72,4 @@ Like any respectable coding tutorial your first first exercise is to write your 
 
 Write a program that will ask you for your name and then greet you. Alternatively you can also give your name to the program as a launch argument.
 
-**Hint:** Maybe the easiest way to get input data to a running program is via a *Scanner* on *System.in*. That way you can interact directly on the command line.
+**Hint:** Maybe the easiest way to get input data to a running program is via a `Scanner` on `System.in`. That way you can interact directly on the command line.
