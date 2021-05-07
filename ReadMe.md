@@ -5,6 +5,30 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+
+
+##05/10 Primitive vs reference types and Collections
+
+A review of primitive types (e.g. `double`) vs reference types (e.g. `Double`), followed by a discussion of their use inside collections (`java.util.Collection`).
+
+### RandomToList
+
+This is a short exercise in which to create a list of Double from `java.util.Random`, which returns 
+primitive double.
+
+### GuestList
+
+A mock ledger to keep track of guests in a hotel. Where each guest is assigned a unique hotel room.
+The API is build upon the Java Collections Framework, which uses reference types, but you can use 
+any form of internal representation.
+
+Hint: You can use a Map of said framework to make this exercise pretty straight forward.
+
+
+
+
+
+
 ## 05/03 Debugging in eclipse
 
 We go through some of the debugging tools that eclipse has to offer. We also discuss throwing and handling exceptions.

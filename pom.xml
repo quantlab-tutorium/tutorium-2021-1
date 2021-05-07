@@ -9,6 +9,7 @@
 		<src.main.java.dir>src/main/java</src.main.java.dir>
 		<src.test.java.dir>src/test/java</src.test.java.dir>
 		<src.solution.java.dir>src/solution/java</src.solution.java.dir>
+		<src.test.resource.dir>src/test/resources</src.test.resource.dir>
 		<junit.version>5.6.2</junit.version>
 		<finmath-lib.version>5.1.0</finmath-lib.version>
 	</properties>
@@ -18,6 +19,11 @@
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<sourceDirectory>${src.main.java.dir}</sourceDirectory>
 		<testSourceDirectory>${src.test.java.dir}</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>${src.test.resources.dir}</directory>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 			    <groupId>org.codehaus.mojo</groupId>
