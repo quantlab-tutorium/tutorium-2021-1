@@ -6,6 +6,34 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+## 05/17
+
+Today we look at parallel and concurrent programming. Especially with the use of streams and lambda
+expressions.
+
+
+## Primes
+
+The exercise consists of implementing the method getPrimes(long minNumber, long maxNumber) of
+PrimeNumbersParallel such that it finds prime numbers on multiple threads in parallel.
+
+
+### Bonus
+
+Disclaimer: This one is a bit more advanced. Don't worry if you are having problems with this.
+
+Implement the method getPrimes(). The method is supposed to calculate primes indefinitely until the
+user presses "enter" in the console. 
+
+Note, the test simulates the user by overwriting System.in to send a new line character after 0.1s.
+You can implement a more sophisticated interaction method, but for the test to work you will want to
+utilize System.in.
+
+
+
+
+
+
 
 ##05/10 Primitive vs reference types and Collections
 
