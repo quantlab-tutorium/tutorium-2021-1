@@ -5,8 +5,35 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+## 05/31 Building your own project
 
-## 05/17
+There is nothing to be coded in this exercise. Instead this exercise is about creating your "own project and managing
+dependencies with and without the use of maven. In src/test/resources you will find two test classes. However, these
+require some dependencies and will not work by themselves.
+
+Please create two new projects and set up their dependencies such that you can run the tests.
+
+First start with the BrownianMotionTest from the finmath-lib. Please import the lib as a Project using your IDE's build
+management tools. If you like you can set up the modules, but this is optional.
+
+Second, set up a project for RandomVariableGPUTest from the finmath-lib-cuda-extensions. This time try to use maven to
+manage the dependencies. We would like to use version 4.1.7 of the extension.
+
+Hints:
+* You will need to configure your project to use JUnit4. JUnit5 will not work with the tests as they are.
+* Take care which package you put the tests into. Either you create a package of the name specified in the class file or
+ you adjust the file. 
+* Some tests may fail. Especially, when you don't have a dedicated GPU installed on your computer. Don't worry, it's
+fine as long as the tests themselves are running.
+
+
+
+
+
+
+
+
+## 05/17 Concurrency and Parallelism
 
 Today we look at parallel and concurrent programming. Especially with the use of streams and lambda
 expressions.
