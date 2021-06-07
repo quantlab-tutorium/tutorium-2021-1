@@ -5,6 +5,37 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+
+## 06/07 Random Numbers
+
+Today we review various methods to create random numbers in Java, using the native libraries as well as externals.
+We also take note on thread safety with random number generation.
+
+
+### Playing dice
+
+For the exercise you will find a test called `SetOfDiceTest`. For this you will need to implements the two factories
+`BasicDieFactory` and `LoadedDieFactory`. The former producing fair dice showing the numbers 1 through 6.
+The latter produces loaded dice, which have a one-in-four chance to yield the result 6 when cast. (The other numbers
+being equal in probability.)
+
+You can use the provided class `SimpleSetOfDice` in your factories.
+This class builds a set from individual dice.
+Note that each die needs to be unique, the class does not accept duplicates.
+Take care of how you build your random number generator with your factory,
+especially when you want to run your program in parallel.
+You don't want your die tosses to be correlated!
+
+
+### Bonus
+
+You can try different RNG for your dice and you can also try to find a more efficient implementation of `SetOfDice`.
+
+
+
+
+
+
 ## 05/31 Building your own project
 
 There is nothing to be coded in this exercise. Instead this exercise is about creating your "own project and managing
@@ -39,7 +70,7 @@ Today we look at parallel and concurrent programming. Especially with the use of
 expressions.
 
 
-## Primes
+### Primes
 
 The exercise consists of implementing the method getPrimes(long minNumber, long maxNumber) of
 PrimeNumbersParallel such that it finds prime numbers on multiple threads in parallel.
