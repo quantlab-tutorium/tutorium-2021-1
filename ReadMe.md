@@ -6,7 +6,34 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
-## 06/07 Random Numbers
+
+
+## 8 - 06/14 Brownian Motion
+
+Today we create our own process. The `SimplisticProcess` is to store a discretized realization of a (markovian)
+stochastic process. The implementation should store its values as increments, but access is given to the aggregate
+values. Moreover, the constructor should use a `RandomNumberGenerator` as factory for its entries. The
+construction of the actual process can happen either eager or lazy. 
+
+Lastly write a main method to properly instantiate and test your process.
+
+
+### Bonus Jump Process
+
+Note that the increments need not necessarily be Gaussian. As a bonus, try to implement your class in a way such that
+it uses an `IncrementTransform` to create the actual increments out of the uniform random numbers from the
+generator. 
+
+Once of course for the Brownian motion and as an alternative create a Poisson jump process, where the occurrences of
+jumps in a given interval are Poisson distributed. The time increment should be used as intensity for the Poisson
+distribution. You can use a additional random numbers to determine the sign of the jumps or even their individual sizes.
+
+
+
+
+
+
+## 7 - 06/07 Random Numbers
 
 Today we review various methods to create random numbers in Java, using the native libraries as well as externals.
 We also take note on thread safety with random number generation.
@@ -36,7 +63,7 @@ You can try different RNG for your dice and you can also try to find a more effi
 
 
 
-## 05/31 Building your own project
+## 6 - 05/31 Building your own project
 
 There is nothing to be coded in this exercise. Instead this exercise is about creating your "own project and managing
 dependencies with and without the use of maven. In src/test/resources you will find two test classes. However, these
@@ -64,7 +91,7 @@ fine as long as the tests themselves are running.
 
 
 
-## 05/17 Concurrency and Parallelism
+## 5 - 05/17 Concurrency and Parallelism
 
 Today we look at parallel and concurrent programming. Especially with the use of streams and lambda
 expressions.
@@ -93,7 +120,7 @@ utilize System.in.
 
 
 
-##05/10 Primitive vs reference types and Collections
+## 4 - 05/10 Primitive vs reference types and Collections
 
 A review of primitive types (e.g. `double`) vs reference types (e.g. `Double`), followed by a discussion of their use inside collections (`java.util.Collection`).
 
@@ -115,7 +142,7 @@ Hint: You can use a Map of said framework to make this exercise pretty straight 
 
 
 
-## 05/03 Debugging in eclipse
+## 3 - 05/03 Debugging in eclipse
 
 We go through some of the debugging tools that eclipse has to offer. We also discuss throwing and handling exceptions.
 
@@ -130,7 +157,7 @@ The function sin(x)/((x+pi)(x-pi)) is undefined for x=+-pi. However, it can be c
 
 
 
-## 04/26 Submitting assignments
+## 2 - 04/26 Submitting assignments
 
 We take a more in depth look into git and github. In particular we review how to submit your assignments.
 You can find a little introduction by GitHub on https://github.com/quantlab-tutorium/github-starter-course.git.
@@ -170,7 +197,7 @@ method `of`. Please try to keep the constructors private and use this method ins
 
 
 
-## 04/16 Introduction to our tools
+## 1 - 04/16 Introduction to our tools
 
 Today we get used to the eclipse IDE and check out the other tools we will be using for the lecture Numerical Methods for Financial Mathematics.
 
