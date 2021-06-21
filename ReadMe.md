@@ -8,6 +8,37 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+## 9 - 06/21 Valuation using the finmath library
+
+The exercise demonstrates how to use the library to value options and how to use modular pieces to change the result of 
+reusable code.
+
+### Valuation exercise
+
+Please complete the methods in OptionPricing in the order they are found.
+
+First try to find an analytic approach to pricing a European call and a digital option under the Black-Scholes model.
+(The digital option pays 1, when the underlying is greater or equal the strike at the time of maturity).
+
+Next try to implement the same valuations via Monte-Carlo simulation. 
+
+Now switch the model for a Bachelier model. Don't worry when the resulting prices don't align, they shouldn't.
+
+
+### Bonus
+
+You can implement your own product to be evaluated by the Monte-Carlo simulation. Have a look at the Straddle option and
+ complete the getValue method. (The Straddle option is a combination of a European call and put option at the same
+ strike and maturity.)
+
+Then you can complete the last two methods in the OptionPricing class, which evaluate the option under Black-Scholes and
+Bachelier respectively. 
+
+
+
+
+
+
 ## 8 - 06/14 Brownian Motion
 
 Today we create our own process. The `SimplisticProcess` is to store a discretized realization of a (markovian)
