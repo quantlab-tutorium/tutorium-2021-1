@@ -8,6 +8,48 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+## 10 - 06/28 JavaDoc and SOLID
+
+Today we look at ways to document and keep your code clean. There is no particular exercise this week, other than try to build your JavaDoc. For more coding, have a look at the current exercise sheet, which goes deeper into the bonus task of last week.
+
+## JavaDoc
+
+The prime way for documentation in a Java project is JavaDoc.
+We look at what it is, how it's used and how to generate it (via eclipse's build-in tools and maven).
+Followed by a quick review of checkstyle, which next to helping enforce our own coding conventions, also helps to ensure the JavaDoc is adequately kept. 
+
+## S-O-L-I-D
+
+Lastly we go over the SOLID design principles of coding.  
+
+
+* **S**ingle-responsibility principle:  
+A class should have one, and only one, reason to change.
+
+
+* **O**pen–closed principle:  
+Software entities should be open for extension, but closed for modification.
+
+
+* **L**iskov substitution principle:  
+Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+
+
+* **I**nterface segregation principle:  
+A client should not be forced to implement an interface that it doesn’t use.
+
+
+* **D**ependency Inversion Principle:  
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Abstractions should not depend on details. Details should depend on abstractions.
+
+
+
+
+
+
+
+
 ## 9 - 06/21 Valuation using the finmath library
 
 The exercise demonstrates how to use the library to value options and how to use modular pieces to change the result of 
