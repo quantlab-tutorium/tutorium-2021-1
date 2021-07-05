@@ -5,6 +5,20 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+## 11 - 07/05 Visualizing Data
+
+**After pulling today's code, please have Maven update your project.**
+
+Today we dip our toes into how to visualize data. We discuss options both within and outside of Java.
+
+## Finite Difference Comparison
+
+In the lecture you have seen the class `FiniteDifferenceExperiments` in the package `info.quantlab.numericalmethods.lecture.finitedifference`. The exercise is to write a similar experiment, comparing the performance of *forward*, *backward* and *central finite differences* for the first derivative of the functions *log(x)*, *x^2* and *sin(x)*.
+
+ You can choose any kind of visualization opf your results you like. 
+
+
+
 
 
 
