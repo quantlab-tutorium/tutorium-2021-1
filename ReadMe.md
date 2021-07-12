@@ -5,6 +5,17 @@ This project contains exercises to be worked on during the quantlab tutorium. Ve
 
 
 
+## 12 - 07/12 Q&A
+
+After a look at last weeks solution we will do a Q&A for the exam and project. There is no specific tutorium exercise, but of course you can work on the final exercise sheet, if you like.
+
+
+
+
+
+
+
+
 ## 11 - 07/05 Visualizing Data
 
 **After pulling today's code, please have Maven update your project.**
