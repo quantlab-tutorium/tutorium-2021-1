@@ -19,6 +19,7 @@ module info.quantlab.tutorium.nmf {
 	exports info.quantlab.tutorium.solution07;
 	exports info.quantlab.tutorium.solution08;
 	exports info.quantlab.tutorium.solution09;
+	exports info.quantlab.tutorium.solution11;
 
 	requires transitive net.finmath.lib;
 	requires net.finmath.plots;
